@@ -14,10 +14,18 @@ color: aqua;
     border-radius: 7px;
 } 
 body{
-    background-color: rgb(164, 192, 209);
+    background-color: rgb(13, 115, 179);
     
 }
 #cont{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blue;
+}
+
+
+.derechos{
+    
+    color: beige;
+    position: absolute;
+    bottom: 0%;
 }

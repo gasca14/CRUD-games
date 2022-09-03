@@ -84,7 +84,7 @@ function actualizar(i){
       juegos[i].consola = document.getElementById("newconsola").value;
 
       if(juegos[i].nombre === "" || juegos[i].genero === "" || juegos[i].consola === ""){
-         alert("Completa todos los nuevos datos a editar!")
+         alert("Completa todos los campos para actualizar!")
       }else{
       localStorage.setItem("juegos",JSON.stringify(juegos))
       menuPrincipal()   
