@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crud games</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="/assets/images/consola.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -30,34 +31,38 @@
                     <button type="button" class="btn btn-success float-left" onclick="agregar()">Agregar</button>
                     <button type="button" class="btn btn-primary float-right" onclick="limpiarTodo()">Limpiar
                         todo</button>
+                       
                 </form>
             </div>
         </div>
-        <div class="offset-md-3 col-md-6 mt-5">
-            <table class="table table-hover table-dark">
-                <h4 id="cont" class="text-left">Lista de juegos</h4> 
-                <thead>
-                    <tr>
-                        <td>Nombre</td>
-                        <td>Genero</td>
-                        <td>Consola</td>
-                        <td>Acciones</td>
-                    </tr>
-                </thead>
-                <tbody id="tbody">
-                    <!-- <tr>
-                        <td>No hay registros</td>
-                    </tr>
-                    <tr>
-                        <td>Mario</td>
-                        <td>Accion</td>
-                        <td>Nintendo</td>
-                        <td><button type="button" class="btn btn-danger btn-sm">Editar</button></td>
-                        <td><button type="button" class="btn btn-warning btn-sm">Eliminar</button></td>
-                    </tr> -->
-                </tbody>
-            </table>
-        </div>
+            <div class="offset-md-3 col-md-6">
+
+                <div class="table-responsive mt-4">
+                    <table class="table">
+                        <h4 id="cont" class="text-center">Lista de juegos</h4> 
+                        <thead>
+                            <tr>
+                                <td>Nombre</td>
+                                <td>Genero</td>
+                                <td>Consola</td>
+                                <td>Acciones</td>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            <!-- <tr>
+                                <td>No hay registros</td>
+                            </tr>
+                            <tr>
+                                <td>Mario</td>
+                                <td>Accion</td>
+                                <td>Nintendo</td>
+                                <td><button type="button" class="btn btn-danger btn-sm">Editar</button></td>
+                                <td><button type="button" class="btn btn-warning btn-sm">Eliminar</button></td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
     </div>
     <footer>
 
