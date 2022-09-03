@@ -1,7 +1,4 @@
 
-
-
-
 function agregar() {
    nombre = document.getElementById("nombre").value;
    genero = document.getElementById("genero").value;
