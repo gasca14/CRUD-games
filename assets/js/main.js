@@ -124,7 +124,7 @@ function menuPrincipal(){
                    </tr>
                </thead>
                <tbody id="tbody">
-                   <!-- <tr>
+                    <tr>
                        <td>No hay registros</td>
                    </tr>
                    <tr>
