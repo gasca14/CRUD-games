@@ -48,7 +48,12 @@ function mostrar() {
 mostrar()
 
 
-
+function editar(){
+   alert("editando")
+}
+function eliminar(){
+   alert("eliminando")
+}
 
 
 function limpiarTodo () {

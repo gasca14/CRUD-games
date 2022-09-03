@@ -10,11 +10,12 @@ color: aqua;
 }
 
 #games{
-    background-image: url(/assets/images/1.jpeg);
+    background-image: url(/assets/images/mario.jpeg);
     border-radius: 7px;
-}
+} 
 body{
     background-color: rgb(108, 214, 233);
+    background-image: url(/assets/images/1.jpeg);
 }
 #cont{
     font-family: Georgia, 'Times New Roman', Times, serif;
