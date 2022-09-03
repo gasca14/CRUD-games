@@ -8,9 +8,10 @@ body{
 font-family: 'Silkscreen', cursive;
 }
 
-/* }
-.row{
-    background-image: url("/assets/images/3.jpeg");
-    margin-top: 10px;
-    border-radius: 8px;
-} */
+#games{
+    background-image: url(/assets/images/mario.jpeg);
+    width: 100%;
+}
+body{
+    background-color: rgb(214, 177, 127);
+}
