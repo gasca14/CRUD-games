@@ -6,7 +6,7 @@ body{
 
 #titulo{
 font-family: 'Silkscreen', cursive;
-color: rgb(49, 154, 195);
+color: #3C91E6;
 }
 
 #games{
@@ -14,12 +14,12 @@ color: rgb(49, 154, 195);
     border-radius: 7px;
 } 
 body{
-    background-color: rgb(238, 238, 214);
+    background-color: #9DC5BB;
     
 }
 #cont{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(100, 100, 198);
+    color: #3C91E6;
 }
 
 
